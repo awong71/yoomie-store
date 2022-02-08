@@ -1,0 +1,23 @@
+{
+  "name": "yoomie-store",
+  "version": "1.0.0",
+  "description": "Online store for baby's clothes and garmets.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awong71/yoomie-store.git"
+  },
+  "author": "Albert Wong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/awong71/yoomie-store/issues"
+  },
+  "homepage": "https://github.com/awong71/yoomie-store#readme",
+  "dependencies": {
+    "firebase": "^9.6.6",
+    "parcel": "^2.2.1"
+  }
+}
