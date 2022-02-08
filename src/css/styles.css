@@ -69,9 +69,9 @@ h2 {
 }
 /* MENU AREA */
 nav {
-    padding: 0.5rem;
     position: absolute;
     left: 0;
+    background-color: #fff;
     width: 100vw;
     max-height: 0;
     overflow: hidden;

@@ -16,7 +16,7 @@
     <!-- Stylesheets -->
     <link rel="stylesheet" href="css/modern-reset.css">
     <link rel="stylesheet" href="css/styles.css">
-    <script type="module" src="js/index.js" defer></script>
+    <script type="module" src="js/write.js" defer></script>
 
 </head>
 
@@ -58,12 +58,31 @@
     </div>
     </header>
     <main>
-
-
+        <form id="productForm">
+       
+            <div>
+              <div class="display">
+                <img src="img/monkey.svg" alt="">
+              </div>   
+                <label for="productImage">Select image </label>
+                <input type="file" id="productImage" style="display:none"  class="select-file"   accept=".jpg, .png, .jpeg, .webp">
+             
+              </div>
+    
+            <div>
+              <label for="productDetails">Product Details</label>         
+               <input id="productDetails" type="text">
+            </div>
+            
+            <div>
+            <button type="submit">Add Product</button>
+    
+            </div>
+          </form>
 
     </main>
     <footer>
-        <h2>This is footer</h2>
+        <h2>This is footer Write</h2>
     </footer>
 </body>
 
