@@ -1,3 +1,5 @@
+import {ref as dataRef, get, set, update, remove} from 'firebase/database';
+import {db} from '../libs/firebase/firebaseConfig';
 function productCard ({key, productName, urlPath, productDetails, like, price}){
   const template = `
       
@@ -36,9 +38,17 @@ function onEditProduct(e){
     window.location.assign('update.html')
 }
 
-function onRemoveProduct(e){
+async function onRemoveProduct(e){
     const key = e.target.dataset.key 
     sessionStorage.setItem('key', key)
-    window.location.assign('delete.html')
+    // const key = sessionStorage.getItem('key')
+    console.log("update page")
+    console.log(key)
+    // ref with key   rental/key
+    const productRef = dataRef(db, `products/${key}`);
+    
+    window.location.assign('read.html')
+
+    return remove(productRef)
 }
 export {productCard}

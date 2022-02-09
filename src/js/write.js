@@ -10,6 +10,7 @@ document.forms["productForm"].addEventListener("submit", onAddProduct);
     function onAddProduct(e) {
         e.preventDefault();
         uploadNewProduct();
+        
     }
   
 
@@ -53,6 +54,7 @@ document.forms["productForm"].addEventListener("submit", onAddProduct);
            like,
            price: `$${price}`
         })
+        window.location.assign('read.html')
         
     }
  
