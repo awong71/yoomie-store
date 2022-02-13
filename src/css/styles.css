@@ -207,10 +207,10 @@ a.first-link img:first-of-type{
     padding: 10rem 1rem;
 }
 
-section .card {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+aside {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 500px;
 }
 .container {
     display: flex;
@@ -231,6 +231,7 @@ section .card {
         border-top-right-radius: 50%;
     }
     .product-details {
+        padding: 1rem;
         background: var(--bg-beige);
     }
     
