@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    
+    <link rel="shortcut icon" type="image/x-icon" href="img/logo.webp" />
     <title>Yoomie</title>
 
     <!-- Meta Tags -->
@@ -61,40 +61,37 @@
 
     <main>
 
-        
         <form id="productForm">
-       
-            <div>
-              <div class="display">
-                <img src="img/down-chevron.svg" alt="">
-              </div>   
-                <label for="productImage">Select image </label>
-                <input type="file" id="productImage" style="display:none"  class="select-file"   accept=".jpg, .png, .jpeg, .webp">
-             
-            </div>
-    
-            <div>
-                <label for="productName">Product Name</label>         
-                <input id="productName" type="text">
+            <div class="container">
+                <div class="card__container">
+                  <div class="card">
+                    <div class="card__content">
+                        <div class="display">
+                            <label for="productImage"><img src="img/plus.png" alt=""></label>
+                          <input type="file" id="productImage" style="display:none"  class="select-file"   accept=".jpg, .png, .jpeg, .webp">
+                          </div>
+                          
 
-                <label for="productDetails">Product Details</label>         
-                <input id="productDetails" type="text">
+                            <div>
+                                <label for="productName">Product Name</label>         
+                                <input id="productName" type="text">
 
-                <label for="productPrice">Price</label>         
-                <input id="productPrice" type="text">
+                                <label for="productDetails">Product Details</label>         
+                                <input id="productDetails" type="text">
 
-                <label for="productLikes">Likes</label>         
-                <input id="productLikes" type="text">
+                                <label for="productPrice">Price</label>         
+                                <input id="productPrice" type="text">
+
+                                <label for="productLikes">Likes</label>         
+                                <input id="productLikes" type="text">
 
 
-            </div>
-            
-            <div>
-            <button type="submit">Add Product</button>
-    
-            </div>
-          </form>
-
+                            </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </form>
     </main>
     <footer>
         <h2>This is footer Edit</h2>

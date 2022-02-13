@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    
+    <link rel="shortcut icon" type="image/x-icon" href="img/logo.webp" />
     <title>Yoomie</title>
 
     <!-- Meta Tags -->
@@ -58,36 +58,35 @@
     </div>
     </header>
     <main>
-
-        <a href="read.html">read</a>
-        <form id="productForm">
+        <form id="productForm" class="add-new-property">
        
-            <div>
+            <div class="property-image form-control">
               <div class="display">
-                <img src="img/monkey.svg" alt="">
-              </div>   
-                <label for="productImage">Select image </label>
-                <input type="file" id="productImage" style="display:none"  class="select-file"   accept=".jpg, .png, .jpeg, .webp">
-             
+                <img src="img/product.jpg" alt="">
+                
+              </div>
+              <label for="productImage">Select image</label>
+              <input type="file" id="productImage" style="display:none"  class="select-file"   accept=".jpg, .png, .jpeg, .webp">
             </div>
     
-            <div>
-                <label for="productName">Product Name</label>         
-                <input id="productName" type="text">
+            <br class="rental-name form-control">
+                
+                <label for="productName">Product Name</label></br>         
+                <input id="productName" type="text"></br> 
 
-                <label for="productDetails">Product Details</label>         
-                <input id="productDetails" type="text">
+                <label for="productDetails">Product Details</label>  </br>        
+                <input id="productDetails" type="text"></br> 
 
-                <label for="productPrice">Price</label>         
-                <input id="productPrice" type="text">
+                <label for="productPrice">Price</label>  </br>        
+                <input id="productPrice" type="text"></br> 
 
-                <label for="productLikes">Likes</label>         
+                <label for="productLikes">Likes</label>  </br>       
                 <input id="productLikes" type="text">
 
 
             </div>
             
-            <div>
+            <div class="submit-button form-control">
             <button type="submit">Add Product</button>
     
             </div>
