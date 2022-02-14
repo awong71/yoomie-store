@@ -38,7 +38,7 @@ document.forms["productForm"].addEventListener("submit", onAddProduct);
         // form data
         const productName = document.querySelector('#productName').value.trim();
         const productDetails = document.querySelector('#productDetails').value.trim();
-        const like = document.querySelector('#productDetails').value.trim();
+        const like = document.querySelector('#productLikes').value.trim();
         const price = document.querySelector('#productPrice').value.trim();
         const file = document.querySelector('#productImage').files[0]
         

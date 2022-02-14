@@ -62,42 +62,43 @@
             </ul>
         </nav>
     </div>
-    <a href="read.html">read</a>
     </header>
 
     <main>
-
-        <form id="productForm">
-            <div class="container">
-                <div class="card__container">
-                  <div class="card">
-                    <div class="card__content">
-                        <div class="display">
-                            <label for="productImage"><img src="img/plus.png" alt=""></label>
-                          <input type="file" id="productImage" style="display:none"  class="select-file"   accept=".jpg, .png, .jpeg, .webp">
-                          </div>
-                          
-
-                            <div>
-                                <label for="productName">Product Name</label>         
-                                <input id="productName" type="text">
-
-                                <label for="productDetails">Product Details</label>         
-                                <input id="productDetails" type="text">
-
-                                <label for="productPrice">Price</label>         
-                                <input id="productPrice" type="text">
-
-                                <label for="productLikes">Likes</label>         
-                                <input id="productLikes" type="text">
-
-
-                            </div>
-                    </div>
-                  </div>
-                </div>
+        <form id="productForm" class="add-new-property">
+       
+            <div class="property-image form-control">
+              <div class="display">
+                <img src="img/product.jpg" alt="">
+                
               </div>
-        </form>
+              <label for="productImage">Select image</label>
+              <input type="file" id="productImage" style="display:none"  class="select-file"   accept=".jpg, .png, .jpeg, .webp">
+            </div>
+    
+            <br class="rental-name form-control">
+                
+                <label for="productName">Product Name</label></br>         
+                <input id="productName" type="text"></br> 
+
+                <label for="productDetails">Product Details</label>  </br>        
+                <input id="productDetails" type="text"></br> 
+
+                <label for="productPrice">Price</label>  </br>        
+                <input id="productPrice" type="text"></br> 
+
+                <label for="productLikes">Likes</label>  </br>       
+                <input id="productLikes" type="text">
+
+
+            </div>
+            
+            <div class="submit-button form-control">
+            <button type="submit">Update Product</button>
+    
+            </div>
+          </form>
+
     </main>
     <footer>
         <h2>This is footer Edit</h2>
